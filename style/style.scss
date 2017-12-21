@@ -1,0 +1,382 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar .menu ul li a {
+    color: #18191a;
+    font-size: 14px;
+}
+
+.navbar .smenu ul li a {
+    color: #0074e4;
+    font-size: 12.5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menu ul li {
+    padding-right: 15px;
+}
+
+.menu ul li a.active {
+    color: #286fe2;
+    padding: 12px 12px;
+    border-bottom: solid;
+    border-bottom-width: 5px;
+    border-color: #286fe2;
+}
+
+.menu ul li a:hover {
+    color: #286fe2;
+}
+
+.menu {
+    z-index: 1;
+}
+
+.navbar ul {
+    margin-left: 25px;
+}
+
+.header {
+    height: 50px;
+}
+
+.navbar .menu img {
+    float: left;
+}
+
+.mainframe {
+    height: 95%;
+    width: auto;
+    position: relative;
+    background: url('img/1.jpg');
+}
+
+.menu {
+    position: absolute;
+}
+
+.menu ul {
+    float: left;
+}
+
+.smenu {
+    float: right;
+}
+
+.smenu ul li a:hover {
+    color: #55ACEE;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.wrapper {
+    margin: auto;
+    width: 620px;
+    margin-top: 20%;
+}
+
+.nav_opt {
+    list-style-type: none;
+    margin-left: -40px;
+}
+
+.opt {
+    width: 150px;
+    border-color: white;
+    border-width: 0.5px;
+    border-style: solid;
+    color: white;
+    padding: 2px;
+    height: 50px;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.4);
+    margin-left: -4px;
+}
+
+.wrapper li:hover {
+    background-color: rgba(18, 65, 165, 0.6);
+    cursor: pointer;
+}
+
+.form-wrapper {
+    list-style-type: none;
+    width: 600px;
+    height: 55px;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 0;
+    border: none;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.search-btn {
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 110px;
+    font-family: Verdana;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background-color: #286fe2;
+    color: white;
+    cursor: pointer;
+}
+
+.box {
+    height: 50px;
+    width: 480px;
+    padding-right: 32px;
+    border: none;
+    font-size: 18px;
+    border: none;
+}
+
+input[type=text], textarea {
+    outline: none;
+    border: 0px;
+}
+
+input[type=text]:focus, textarea:focus {
+    border: 0px;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    visibility: visible;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    margin-left: 70px;
+    margin-top: -15px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent white transparent;
+}
+
+.wrapper a {
+    font-family: Verdana;
+    text-align: center;
+    display: block;
+    margin-top: 12px;
+    font-size: 16px;
+    color: white
+}
+
+.wrapper li.active {
+    background-color: rgba(18, 65, 165, 0.6);
+    color: white
+}
+
+.wrapper a:hover {
+    e background-color: #286fe2;
+    color: white;
+}
+
+#tagline {
+    color: white;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 47px;
+}
+
+.maincaption {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(24, 52, 93, .85);
+    display: inline-block;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    min-height: 55px;
+    overflow: hidden;
+}
+
+.maincaption img {
+    display: block;
+    height: 40px;
+    width: auto;
+    float: left;
+    margin-top: 5px;
+}
+
+.maincaption span {
+    color: white;
+    display: block;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.maincaption button {
+    float: right;
+    margin-top: -25px;
+    height: 35px;
+    background: #0074e4;
+    width: 125px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.maincaption button:hover {
+    background: -moz-linear-gradient(45deg, rgba(18, 92, 161, 1) 0%, rgba(5, 85, 156, 1) 29%, rgba(0, 118, 228, 1) 49%, rgba(36, 131, 214, 1) 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(18, 92, 161, 1)), color-stop(29%, rgba(5, 85, 156, 1)), color-stop(49%, rgba(0, 118, 228, 1)), color-stop(100%, rgba(36, 131, 214, 1)));
+    background: -webkit-linear-gradient(45deg, rgba(18, 92, 161, 1) 0%, rgba(5, 85, 156, 1) 29%, rgba(0, 118, 228, 1) 49%, rgba(36, 131, 214, 1) 100%);
+    background: -o-linear-gradient(45deg, rgba(18, 92, 161, 1) 0%, rgba(5, 85, 156, 1) 29%, rgba(0, 118, 228, 1) 49%, rgba(36, 131, 214, 1) 100%);
+    background: -ms-linear-gradient(45deg, rgba(18, 92, 161, 1) 0%, rgba(5, 85, 156, 1) 29%, rgba(0, 118, 228, 1) 49%, rgba(36, 131, 214, 1) 100%);
+    cursor: pointer;
+}
+
+.desc {
+    width: 100%;
+    min-height: 260px;
+    background: #eee;
+}
+
+.footer {
+    width: 100%;
+    min-height: 153px;
+    background: black;
+}
+
+.col1 {
+    width: 285px;
+    height: 150px;
+    margin: 5px;
+    display: inline-block;
+}
+
+.col1 ul li {
+    margin-bottom: 10px;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: #444;
+}
+
+.col1 ul .cap {
+    margin-bottom: 17px;
+}
+
+.more {
+    color: #0074e4;
+}
+
+.more:hover {
+    cursor: pointer;
+}
+
+.col1 ul li:hover {
+    color: #0074e4;
+    cursor: pointer;
+}
+
+.brand {
+    color: #999999;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+
+.f1 {
+    margin: auto;
+    width: 600px;
+    padding-top: 12px;
+}
+
+.service {
+    color: 999999;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+.f2 {
+    margin: auto;
+    width: 1050px;
+    padding-top: 22px;
+    padding-bottom: 10px;
+}
+
+.bdr {
+    width: 100%;
+    height: .5px;
+    background: #444;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    padding: 12px;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    padding: 12px;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+    padding: 12px;
+}
+
+.f3 .fa-home {
+    color: 999999;
+    padding: 12px;
+    width: auto;
+}
+
+.copyright {
+    color: 999999;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    padding: 10px;
+}
+
+.follow {
+    color: 999999;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    padding: 10px;
+}
+
+.f3 {
+    margin: auto;
+    width: 400px;
+    padding-top: 5px;
+}
+
+.brand a:hover, .service a:hover {
+    cursor: pointer;
+    color: #0074e4;
+}
+
+.service a {
+    margin-right: 7px;
+}
